@@ -39,9 +39,9 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.name_app.setFont(font)
         self.name_app.setStyleSheet("color:rgb(48, 44, 184);\n"
-"font: 75 28pt \"MS Shell Dlg 2\";\n"
-"font-weight: bold;\n"
-"")
+                                    "font: 75 28pt \"MS Shell Dlg 2\";\n"
+                                    "font-weight: bold;\n"
+                                    "")
         self.name_app.setObjectName("name_app")
         self.logo = QtWidgets.QLabel(self.scrollAreaWidgetContents)
         self.logo.setGeometry(QtCore.QRect(40, 20, 151, 151))
@@ -61,17 +61,17 @@ class Ui_MainWindow(object):
         self.browser_main = QtWidgets.QPushButton(self.scrollAreaWidgetContents)
         self.browser_main.setGeometry(QtCore.QRect(900, 420, 111, 41))
         self.browser_main.setStyleSheet("Background-color:rgb(191, 191, 191);\n"
-"font: 75 12pt \"MS Shell Dlg 2\";")
+                                        "font: 75 12pt \"MS Shell Dlg 2\";")
         self.browser_main.setObjectName("browser_main")
         self.yolo_btn = QtWidgets.QPushButton(self.scrollAreaWidgetContents)
         self.yolo_btn.setGeometry(QtCore.QRect(280, 590, 221, 61))
         self.yolo_btn.setStyleSheet("Background-color:rgb(191, 191, 191);\n"
-"font: 20pt \"MS Shell Dlg 2\";")
+                                    "font: 20pt \"MS Shell Dlg 2\";")
         self.yolo_btn.setObjectName("yolo_btn")
         self.eff_btn = QtWidgets.QPushButton(self.scrollAreaWidgetContents)
         self.eff_btn.setGeometry(QtCore.QRect(280, 680, 221, 61))
         self.eff_btn.setStyleSheet("Background-color:rgb(191, 191, 191);\n"
-"font: 20pt \"MS Shell Dlg 2\";")
+                                   "font: 20pt \"MS Shell Dlg 2\";")
         self.eff_btn.setObjectName("eff_btn")
         self.input_sp = QtWidgets.QLineEdit(self.scrollAreaWidgetContents)
         self.input_sp.setGeometry(QtCore.QRect(280, 490, 601, 41))
@@ -80,7 +80,7 @@ class Ui_MainWindow(object):
         self.browser_sp = QtWidgets.QPushButton(self.scrollAreaWidgetContents)
         self.browser_sp.setGeometry(QtCore.QRect(900, 490, 111, 41))
         self.browser_sp.setStyleSheet("Background-color:rgb(191, 191, 191);\n"
-"font: 75 12pt \"MS Shell Dlg 2\";")
+                                      "font: 75 12pt \"MS Shell Dlg 2\";")
         self.browser_sp.setObjectName("browser_sp")
         self.line_4 = QtWidgets.QFrame(self.scrollAreaWidgetContents)
         self.line_4.setGeometry(QtCore.QRect(1040, 270, 20, 501))
@@ -90,33 +90,33 @@ class Ui_MainWindow(object):
         self.new_data = QtWidgets.QLabel(self.scrollAreaWidgetContents)
         self.new_data.setGeometry(QtCore.QRect(320, 290, 351, 51))
         self.new_data.setStyleSheet("color:rgb(0, 0, 255);\n"
-"font: 26pt \"MS Shell Dlg 2\";\n"
-"font-weight: bold;")
+                                    "font: 26pt \"MS Shell Dlg 2\";\n"
+                                    "font-weight: bold;")
         self.new_data.setObjectName("new_data")
         self.img_path_2 = QtWidgets.QLabel(self.scrollAreaWidgetContents)
         self.img_path_2.setGeometry(QtCore.QRect(40, 590, 221, 59))
         self.img_path_2.setStyleSheet("Background-color:rgb(44, 118, 255);\n"
-"font: 75 18pt \"MS Shell Dlg 2\";\n"
-"color:rgb(255, 255, 255);")
+                                      "font: 75 18pt \"MS Shell Dlg 2\";\n"
+                                      "color:rgb(255, 255, 255);")
         self.img_path_2.setObjectName("img_path_2")
         self.img_path_3 = QtWidgets.QLabel(self.scrollAreaWidgetContents)
         self.img_path_3.setGeometry(QtCore.QRect(40, 680, 221, 59))
         self.img_path_3.setStyleSheet("Background-color:rgb(44, 118, 255);\n"
-"font: 75 18pt \"MS Shell Dlg 2\";\n"
-"color:rgb(255, 255, 255);\n"
-"")
+                                      "font: 75 18pt \"MS Shell Dlg 2\";\n"
+                                      "color:rgb(255, 255, 255);\n"
+                                      "")
         self.img_path_3.setObjectName("img_path_3")
         self.img_path = QtWidgets.QLabel(self.scrollAreaWidgetContents)
         self.img_path.setGeometry(QtCore.QRect(40, 420, 221, 39))
         self.img_path.setStyleSheet("Background-color:rgb(44, 118, 255);\n"
-"font: 75 18pt \"MS Shell Dlg 2\";\n"
-"color:rgb(255, 255, 255);")
+                                    "font: 75 18pt \"MS Shell Dlg 2\";\n"
+                                    "color:rgb(255, 255, 255);")
         self.img_path.setObjectName("img_path")
         self.img_path_4 = QtWidgets.QLabel(self.scrollAreaWidgetContents)
         self.img_path_4.setGeometry(QtCore.QRect(40, 490, 221, 39))
         self.img_path_4.setStyleSheet("Background-color:rgb(44, 118, 255);\n"
-"font: 75 18pt \"MS Shell Dlg 2\";\n"
-"color:rgb(255, 255, 255);")
+                                      "font: 75 18pt \"MS Shell Dlg 2\";\n"
+                                      "color:rgb(255, 255, 255);")
         self.img_path_4.setObjectName("img_path_4")
         self.dateEdit = QtWidgets.QDateEdit(self.scrollAreaWidgetContents)
         self.dateEdit.setGeometry(QtCore.QRect(1310, 530, 211, 41))
@@ -129,31 +129,31 @@ class Ui_MainWindow(object):
         self.old_data = QtWidgets.QLabel(self.scrollAreaWidgetContents)
         self.old_data.setGeometry(QtCore.QRect(1140, 290, 351, 51))
         self.old_data.setStyleSheet("color:rgb(0, 0, 255);\n"
-"font: 26pt \"MS Shell Dlg 2\";\n"
-"font-weight: bold;")
+                                    "font: 26pt \"MS Shell Dlg 2\";\n"
+                                    "font-weight: bold;")
         self.old_data.setObjectName("old_data")
         self.img_path_5 = QtWidgets.QLabel(self.scrollAreaWidgetContents)
         self.img_path_5.setGeometry(QtCore.QRect(1090, 530, 201, 41))
         self.img_path_5.setStyleSheet("Background-color:rgb(44, 118, 255);\n"
-"font: 75 18pt \"MS Shell Dlg 2\";\n"
-"color:rgb(255, 255, 255);")
+                                      "font: 75 18pt \"MS Shell Dlg 2\";\n"
+                                      "color:rgb(255, 255, 255);")
         self.img_path_5.setObjectName("img_path_5")
         self.img_path_6 = QtWidgets.QLabel(self.scrollAreaWidgetContents)
         self.img_path_6.setGeometry(QtCore.QRect(1090, 640, 201, 41))
         self.img_path_6.setStyleSheet("Background-color:rgb(44, 118, 255);\n"
-"font: 75 18pt \"MS Shell Dlg 2\";\n"
-"color:rgb(255, 255, 255);")
+                                      "font: 75 18pt \"MS Shell Dlg 2\";\n"
+                                      "color:rgb(255, 255, 255);")
         self.img_path_6.setObjectName("img_path_6")
         self.apply_model = QtWidgets.QPushButton(self.scrollAreaWidgetContents)
         self.apply_model.setGeometry(QtCore.QRect(1390, 470, 131, 41))
         self.apply_model.setStyleSheet("Background-color:rgb(191, 191, 191);\n"
-"font: 15pt \"MS Shell Dlg 2\";")
+                                       "font: 15pt \"MS Shell Dlg 2\";")
         self.apply_model.setObjectName("apply_model")
         self.img_path_7 = QtWidgets.QLabel(self.scrollAreaWidgetContents)
         self.img_path_7.setGeometry(QtCore.QRect(1090, 420, 201, 41))
         self.img_path_7.setStyleSheet("Background-color:rgb(44, 118, 255);\n"
-"font: 75 18pt \"MS Shell Dlg 2\";\n"
-"color:rgb(255, 255, 255);")
+                                      "font: 75 18pt \"MS Shell Dlg 2\";\n"
+                                      "color:rgb(255, 255, 255);")
         self.img_path_7.setObjectName("img_path_7")
         self.choose_model = QtWidgets.QComboBox(self.scrollAreaWidgetContents)
         self.choose_model.setGeometry(QtCore.QRect(1310, 420, 211, 41))
@@ -162,12 +162,12 @@ class Ui_MainWindow(object):
         self.apply_date = QtWidgets.QPushButton(self.scrollAreaWidgetContents)
         self.apply_date.setGeometry(QtCore.QRect(1390, 580, 131, 41))
         self.apply_date.setStyleSheet("Background-color:rgb(191, 191, 191);\n"
-"font: 15pt \"MS Shell Dlg 2\";")
+                                      "font: 15pt \"MS Shell Dlg 2\";")
         self.apply_date.setObjectName("apply_date")
         self.search = QtWidgets.QPushButton(self.scrollAreaWidgetContents)
         self.search.setGeometry(QtCore.QRect(1390, 700, 131, 41))
         self.search.setStyleSheet("Background-color:rgb(191, 191, 191);\n"
-"font: 15pt \"MS Shell Dlg 2\";")
+                                  "font: 15pt \"MS Shell Dlg 2\";")
         self.search.setObjectName("search")
         self.label = QtWidgets.QLabel(self.scrollAreaWidgetContents)
         self.label.setGeometry(QtCore.QRect(1330, 20, 181, 151))
@@ -225,8 +225,8 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.name_app.setText(_translate("MainWindow", "                         MONITOR \n"
-"   DISCONNECTION  SWITCHES’  STATE"))
+        self.name_app.setText(_translate("MainWindow", "         STATE RECOGNITION OF \n"
+                                                       "         DISCONNECT SWITCHES"))
         self.browser_main.setText(_translate("MainWindow", "Browser"))
         self.yolo_btn.setText(_translate("MainWindow", "YOLOV4"))
         self.eff_btn.setText(_translate("MainWindow", "EfficientDet"))
@@ -243,12 +243,14 @@ class Ui_MainWindow(object):
         self.img_path_7.setText(_translate("MainWindow", " Choose Model"))
         self.apply_date.setText(_translate("MainWindow", "Apply"))
         self.search.setText(_translate("MainWindow", "Search"))
+
+
 import logo
 import test_rc
 
-
 if __name__ == "__main__":
     import sys
+
     app = QtWidgets.QApplication(sys.argv)
     MainWindow = QtWidgets.QMainWindow()
     ui = Ui_MainWindow()
