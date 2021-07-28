@@ -2,8 +2,9 @@
 ### Using Yolov4 Darknet and EfficientDet D0 Tensorflow OD API
 - Link to the models [drive](http://drive.com/abc/11111)
 # Installation 
-### Opencv
-### Tensorflow >2.0, Tensorflow OD API 2
+### Tensorflow >2.0, Tensorflow OD API 2 -- [Installation Guide](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2.md)
+### Create environment from environment.yml file 
+- conda env create
 
 # Run GUI_app.py 
 This is the main GUI after run this script:
