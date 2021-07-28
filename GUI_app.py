@@ -35,9 +35,10 @@ NAMES = "./YOLO_Material/DS.names"
 
 yolo_confidence_thresh = 0.7
 
+# Create object yolo_detector and efficientnet_detector
 yolo_detector = Detect_yolo(YOLO_WEIGHTS, YOLO_CFG, NAMES, yolo_confidence_thresh, "",
                             PATH_TO_RESULT_IMAGES_DIR, "")
-# efficientnet_detector = Detect_Effi(PATH_TO_MODEL, PATH_TO_LABELS, "", PATH_TO_RESULT_IMAGES_DIR, "")
+efficientnet_detector = Detect_Effi(PATH_TO_MODEL, PATH_TO_LABELS, "", PATH_TO_RESULT_IMAGES_DIR, "")
 
 
 class project(QMainWindow, Ui_MainWindow, Ui_eff_Window, Detect_Effi, Detect_yolo, Ui_yolo_Window, save_data):
