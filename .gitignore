@@ -37,7 +37,7 @@ MANIFEST
 pip-log.txt
 pip-delete-this-directory.txt
 
-# Unit test / coverage reports
+# Unit test_img / coverage reports
 htmlcov/
 .tox/
 .nox/
@@ -127,3 +127,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# test_img img
+
+# models
+EfficientDet_Material/test_model/
+YOLO_Material/ver1/
+YOLO_Material/ver2_10.5/
+YOLO_Material/ver3_14.5/
+*.weights

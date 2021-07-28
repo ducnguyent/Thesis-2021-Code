@@ -1,0 +1,10 @@
+item {
+    name: "close",
+    id: 1,
+    display_name: "close"
+}
+item {
+    name: "open",
+    id: 2,
+    display_name: "open"
+}
