@@ -33,7 +33,6 @@ class Detect_Effi(object):
         return detection_model
 
     def predict(self):
-        print(self.input_dir)
         img = cv2.imread(self.input_dir)
         img = cv2.resize(img, (786, 786))
         img_array = np.asarray(img)
